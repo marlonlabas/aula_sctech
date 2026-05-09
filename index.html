@@ -63,10 +63,39 @@
 
       <p>Tem um projeto em mente? Entre em contato comigo!</p>
 
-      <address>
-        <p>Email: <a href="mailto:marlon_lab@hotmail.com">marlon_lab@hotmail.com</a></p>
-        <p>Telefone: <a href="tel:+5547992223075">(47) 99222-3075</a></p>
-      </address>
+          <form action="">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome...">
+            </br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email...">
+            </br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+            </br>
+
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" name="assunto">
+              <option value="orcamento">Orçamento</option>
+              <option value="duvida">Dúvida</option>
+              <option value="parceria">Parceria</option>
+              <option value="outro">Outro</option>
+            </select>
+            </br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required placeholder="Digite sua mensagem..." cols="20" rows="5"></textarea>
+            </br>
+
+            <input type="checkbox" id="inscricao" name="inscricao" required>
+            <label for="inscricao">Desejo me inscrever na newsletter</label>
+            </br>
+
+            <input type="submit" value="Enviar mensagem">
+          </form>
 
     </footer>
   </body>
