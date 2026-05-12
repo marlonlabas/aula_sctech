@@ -20,6 +20,8 @@
     padding: 20px;
     border: 1px solid #ddd;
     grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-grid {
