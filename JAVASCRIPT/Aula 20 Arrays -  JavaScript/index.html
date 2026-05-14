@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 20: Arrays em JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Aula 20: Arrays em JavaScript</h1>
+    <p>Esta é a aula 20 da Carreira Tech - Trilha Desenvolvimento de Software da SCTech sobre Arrays em JavaScript.</p>
+
+    <div class="card">
+        <h2>Lista de compras</h2>
+
+        <button onclick="imprimirListaDeCompras(listaDeCompras)">Imprimir Lista</button>
+        <button onclick="limparListaDeCompras()">Limpar Lista</button>
+        </br>
+        <input type="text" id="itemInput" placeholder="Adicionar item à lista">
+        </br>
+        <button onclick="adicionarItem(), imprimirListaDeCompras(listaDeCompras)">Adicionar Item</button>
+        <input type="text" id="itemRemove" placeholder="Remover item da lista">
+        <button onclick="removerItem(), imprimirListaDeCompras(listaDeCompras)">Remover Item</button>
+        
+        <p class="lista-compras" id="imprimirListaDeCompras"></p>
+
+    </div>
+
+</body>
+</html>
