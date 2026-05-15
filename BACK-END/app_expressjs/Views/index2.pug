@@ -1,0 +1,58 @@
+doctype html
+html(lang="pt-br")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Aula 12: CSS Grid Layout
+    link(rel="stylesheet" href="style-aula12.css")
+
+  body
+    .container
+      header.header Cabeçalho
+
+      nav.nav
+        nav(style="background-color: rgb(9, 255, 0); color: white; padding: 20px;") Menu de Navegação
+        .nav-grid
+          a.menu-buttom(href="#") Link 1
+          a.menu-buttom(href="#") Link 2
+          a.menu-buttom(href="#") Link 3
+          a.menu-buttom(href="#") Link 4
+
+      aside.aside-left Barra Lateral
+
+      main.main
+        h2 Conteúdo Principal
+        .grid-container
+          .grid-item
+            h3 Item1
+            p Descrição do Item 1
+          .grid-item
+            h3 Item2
+            p Descrição do Item 2
+          .grid-item
+            h3 Item3
+            p Descrição do Item 3
+          .grid-item
+            h3 Item4
+            p Descrição do Item 4
+          .grid-item
+            h3 Item5
+            p Descrição do Item 5
+          .grid-item
+            h3 Item6
+            p Descrição do Item 6
+
+      aside.aside-right Barra Lateral
+
+  // Footer fora do body (como estava no seu HTML)
+  footer.footer
+    .footer-content
+      p &copy; 2024 SCTECH. Todos os direitos reservados.
+      .vertical-bar
+
+    .footer-content
+      p Desenvolvido por Marlon
+      .vertical-bar
+
+    .footer-content
+      p Contato: contato@sctech.com

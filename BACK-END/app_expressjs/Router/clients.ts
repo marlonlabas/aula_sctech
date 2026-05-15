@@ -1,13 +1,12 @@
 import { Router } from "express";
+import clientsController from "../Controller/clientsController";
 
 const router = Router();
 
-router.get('/', (req, res)=>{
-    res.send("<h1>Rota inicial</h1>")
-});
+router.get('/', clientsController.index);
 
 router.get('/sobrenos', (req, res)=>{
-    res.send("<h1>Sobre nós</h1>")
+    res.render('index2')
 });
 
 router.get('/trabalheconosco', (req, res)=>{
