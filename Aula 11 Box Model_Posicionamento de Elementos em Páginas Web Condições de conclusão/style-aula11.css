@@ -1,0 +1,54 @@
+.titulo_aula {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.block {
+    display: block;
+    border: 1px solid #000;
+    margin: 30px 0px 30px 0px;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.in-line {
+    display: inline-block;
+    border: 1px solid #003cff;
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+}
+
+p > a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.display-block {
+    display: block;
+    height: 200px;
+    background-color: #003cff;
+    border: 1px solid #000;
+    color: aliceblue;
+}
+
+.display-inline {
+    display: inline;
+    height: 200px;
+    background-color: #00ff37;
+    border: 1px solid #000;
+}
+
+.display-inline-block {
+    display: inline-block;
+    margin-top: 30px;
+    height: 100px;
+    background-color: #fffb00;
+    border: 1px solid #000;
+}

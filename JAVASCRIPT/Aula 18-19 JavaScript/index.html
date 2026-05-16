@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 18: JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Aula 18: JavaScript - Manipulação de Elementos de Páginas Web e Switch-Case</h1>
+    <p>Esta é a aula 18 da Carreira Tech - Trilha Desenvolvimento de Software da SCTech sobre JavaScript.</p>
+    
+    <button id="botaoTrocarCor" onclick="trocarCor()">Trocar Cor</button>
+    <div id="caixa1" class="caixa">Caixa 1</div>
+    <div id="caixa2" class="caixa">Caixa 2</div>
+    <div id="caixa3" class="caixa">Caixa 3</div>
+    <button id="botaoRetornarCor" onclick="retornarCor()">Retornar Cor</button>
+
+    <p>Este exemplo demonstra como manipular elementos HTML usando JavaScript. Ao clicar no botão "Trocar Cor", as caixas mudam de cor. Ao clicar no botão "Retornar Cor", as caixas retornam à cor original.</p>
+
+    <div class="card">
+        <h2>Exemplo de Switch/Case</h2>
+        <p>Este exemplo demonstra como usar a instrução switch/case em JavaScript.</p>
+        <section id="switchCaseExample">
+            <label for="Idioma">Escolha um idioma:</label>
+            <select id="Idioma" onchange="exibirMensagem()">
+                <option value="">Selecione</option>
+                <option value="pt">Português</option>
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+            </select>
+            <p id="mensagem"></p>
+    </div>
+</body>
+</html>

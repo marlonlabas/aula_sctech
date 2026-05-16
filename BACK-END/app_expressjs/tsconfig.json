@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Essencial para resolver seu erro atual:
+    "verbatimModuleSyntax": false,
+
+    // Saída
+    "outDir": "./dist",
+    "rootDir": "./",
+    "sourceMap": true,
+
+    // Recomendado para Node.js + Express
+    "strict": true,
+
+    // Remova isso (não é um projeto React):
+    // "jsx": "react-jsx"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,28 @@
+doctype html
+html(lang="pt-br")
+  head
+    meta(charset="utf-8")
+    title Editar Cliente
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css")
+
+  body
+    .container.mt-5
+      .row.justify-content-center
+        .col-md-6
+          .card
+            .card-header
+              h4 Editar Cliente
+
+            .card-body
+              form(method="POST" action=`clientes/update/${client.id}`)
+                .form-group
+                  label(for="name") Nome:
+                  input#name.form-control(type="text" name="name" value=client.name required)
+
+                .form-group
+                  label(for="email") E-mail:
+                  input#email.form-control(type="email" name="email" value=client.email required)
+
+                div.mt-3
+                  button.btn.btn-primary(type="submit") Salvar Alterações
+                  a.btn.btn-secondary.ml-2(href="/") Cancelar
